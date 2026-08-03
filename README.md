@@ -1,5 +1,14 @@
 # CloudOps
 
+## 專案結構
+
+```
+cloudops/
+├── docker-compose.yml   # 容器編排設定
+├── README.md            # 專案說明
+└── .gitignore           # 忽略不需要版本控制的檔案
+```
+
 ## 啟動 Nginx 服務
 
 ```bash
