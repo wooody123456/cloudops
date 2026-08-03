@@ -4,6 +4,11 @@
 
 ```
 cloudops/
+├── app/                 # Flask API 應用程式
+│   ├── app.py           # 主程式（/healthz 健康檢查端點）
+│   ├── requirements.txt # 固定版本的依賴
+│   ├── Dockerfile       # 多階段建置 + 非 root 執行
+│   └── .dockerignore    # build context 忽略清單
 ├── docker-compose.yml   # 容器編排設定
 ├── README.md            # 專案說明
 └── .gitignore           # 忽略不需要版本控制的檔案
