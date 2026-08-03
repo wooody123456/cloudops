@@ -1,0 +1,32 @@
+# ---------- Environment & Secrets ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ---------- Terraform ----------
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# ---------- IDE / OS ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---------- Docker ----------
+# 註解：docker 產生的暫存檔
+*.log
